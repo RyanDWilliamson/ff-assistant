@@ -1,0 +1,34 @@
+# Credentials and tokens — never commit these
+.env
+.env.*
+*.pem
+*.key
+tokens.json
+token*.json
+oauth*.json
+secrets/
+.credentials/
+
+# Local cache of API responses
+.cache/
+cache/
+*.cache
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
